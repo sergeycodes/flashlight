@@ -22,6 +22,6 @@ function lightswitch() {
 }
 
 function changeCursor() {
-    document.getElementById("cursor").setAttribute("id", "pointercursor")
-    document.getElementById("nocursor").setAttribute("id", "pointercursor")
+    document.getElementById("cursor").setAttribute("id", "defaultcursor")
+    document.getElementById("nocursor").setAttribute("id", "defaultcursor")
 }
